@@ -1,0 +1,18 @@
+@import '../../css/colors.scss';
+@import '../../css/sizes.scss';
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: $purple;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include paddings();
+    @media (max-width: 720px) {
+        @include mediaPaddings();
+    }
+}

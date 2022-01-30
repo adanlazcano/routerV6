@@ -1,0 +1,14 @@
+.categories {
+    h1 {
+        margin-bottom: 3rem;
+        @media (max-width: 720px) {
+            margin-bottom: 1rem;
+        }
+    }
+    p {
+        line-height: 45px;
+    }
+    .contentButton {
+        margin-top: 1rem;
+    }
+}

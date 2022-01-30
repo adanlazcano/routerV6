@@ -1,0 +1,15 @@
+@import '../../css/colors.scss';
+.button {
+    padding: 10px 40px;
+    background-color: $blue;
+    color: $white;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.5s ease-in-out;
+    &:hover {
+        background-color: crimson;
+    }
+}

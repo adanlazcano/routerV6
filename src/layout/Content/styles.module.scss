@@ -1,0 +1,11 @@
+@import '../../css/sizes.scss';
+.content {
+    margin-top: 90px;
+    padding: 3rem 4rem;
+    min-height: 100vh;
+    @include paddings();
+    @media (max-width: 720px) {
+        @include mediaPaddings();
+        margin-top: 50px;
+    }
+}
